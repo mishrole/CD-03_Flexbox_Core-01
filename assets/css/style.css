@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1, p {
+    color: dimgrey;
+    padding: .5em 0;
+    text-align: center;
+}
+
+p > a {
+    color: deepskyblue;
+}
+
+section.container {
+    background-color: ghostwhite;
+}
+
+section.container,
+div.row {
+    padding: 1em;
+}
+
+div.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em .5em;
+}
+
+div.row:nth-child(2) {
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+
+div.row:nth-child(3) {
+    background-color: lightseagreen;
+    border: 1px solid lightseagreen;
+}
+
+div.row:nth-child(4) {
+    background-color: indianred;
+    border: 1px solid indianred;
+}
+
+img.octocat {
+    height: 200px;
+}
